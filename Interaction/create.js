@@ -1,4 +1,5 @@
-postMessage.onclick=e=>{
+postMessagebtn.onclick=e=>{
+  alert("sending")
   fetch(apiBaseURL+"/api/posts",{
     method: "POST", 
     body:JSON.stringify({

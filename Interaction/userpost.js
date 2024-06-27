@@ -12,6 +12,9 @@
 //     }
 //   ]
 // }
+if(!localStorage.token){
+  location="/UserAccount/"
+}
 function getPost(item){
   return `    <div class="card">
       <h5>${item.username}, ${item.createdAt}</h5>

@@ -37,7 +37,7 @@ function login(loginData) {
         // window.localStorage.setItem("login-data", JSON.stringify(loginData));
         window.localStorage.token = loginData.token; //simple string
         window.localStorage.username = loginData.username; //simple string
-        window.location.assign("/Interaction/userpost.html");  // redirect
+        location="/Interaction/userpost.html"  // redirect
         return loginData;
     });
 }
@@ -55,6 +55,6 @@ function logout() {
         headers: { Authorization: `Bearer ${localStorage.token}` }
     }).then(() => {
         window.localStorage.removeItem("token");
-        location = "/";  // redirect back to landing page
+        location = "/UserAccount/";  
     });
 }
