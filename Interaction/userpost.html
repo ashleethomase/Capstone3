@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>View All Posts</title>
+
+<!--CSS-->
+<link rel="stylesheet" href="/Interaction/userpost.css">
+
+<!--JavaScript-->
+<script src="/auth.js"></script>
+
+<!--Backend Data-->
+</html>
+
+<body>
+
+<nav class="sidebar">
+  <a href="">Profile</a>
+  <a href="">Create New Post</a>
+  <button class="createpost">
+  <a href="javascript:window.open('create.html', 'createNew', 'width=200,height=150');">Create New Post</a>
+  </button>
+  <a href="">Messages</a>
+  <a href="">Notifications</a>
+  <a href="">All Posts</a>
+  <a href="">Search</a>
+  <button href="">Log Out</button>
+</nav>
+
+<div class="header">
+  <h2>XSCAPE</h2>
+</div>
+<h3>Recent Travel Posts</h3>
+
+<div class="row">
+  <div class="leftcolumn" id="postsList">
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div><br>
+      <div class="fakeimg">Image</div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a class="active" href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
+</div>
+
+<script src="/Interaction/userpost.js"></script>
+</body>
+
+
+  <!--button class="dropdown-btn">All Posts<i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+  Ask why this isn't working 
+
+
+  
