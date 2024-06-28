@@ -1,3 +1,7 @@
+body{
+  background-color: #818181;
+}
+
 /* Style the sidebar - fixed full height */
 .sidebar {
   height: 100%;
